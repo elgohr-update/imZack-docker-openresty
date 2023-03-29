@@ -42,7 +42,7 @@ jobs:
         docker run --rm mplatform/mquery imZack/openresty:latest
 
     - name: Publish Docker
-      uses: elgohr/Publish-Docker-Github-Action@2.14
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         # The name of the image you would like to push
         name: imZack/openresty:latest
